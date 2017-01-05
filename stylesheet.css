@@ -3,6 +3,10 @@ body {
     padding: 0;
 }
 
+ul {
+    list-style:none;
+}
+
 
 #logo {
     position: absolute;
@@ -55,17 +59,24 @@ body {
 
 }
 
+
+#header li {
+    display: inline;
+}
+
+#header ul {
+    list-style:none;
+}
+
 #header {
     position:absolute;
     top:0;
-    /*background-color:#e4e4e4;*/
     color:#666;
     font-size:13.5px;
     font-familiy: Arial,sans-serif;
-    line-height:40px;
-    padding-top:13px;
+    line-height:0px;
     width:100%;
-    height:6%; 
+    height:20%; 
 }
 
 
@@ -87,7 +98,7 @@ body {
 
 
 .link {
-    color:#666;
+    color:#000;
     text-decoration: none;
     padding-left:27px;
     font-size:14px;
@@ -97,6 +108,11 @@ body {
 a:hover {
     text-decoration:underline;
    
+}
+
+.icon {
+    height:30px;
+    width:30px;
 }
 
 .right {
